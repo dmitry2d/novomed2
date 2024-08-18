@@ -1,28 +1,23 @@
 
     <!-- Подвал -->
-    <section class="footer bg-gray-footer text-white py-5">
+    <section class="footer bg-primary text-white py-5">
         <div class="container-xl px-3">
             <div class="row">
                 
                 <div class="col-lg-4 py-3 order-lg-3">
                     <img src="./assets/img/logo.svg" width="160" alt="">
                     <div class="my-4">
-                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-primary p-2 fs-5">
-                            <div class="social-icon__wrapper">
-                                <i class="fab fa-facebook fa-fw"></i>
-                            </div>
-                        </a>
-                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-black p-2 fs-5">
-                            <div class="social-icon__wrapper">
-                                <i class="fab fa-instagram fa-fw"></i>
-                            </div>
-                        </a>
-                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-danger p-2 fs-5">
+                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-soc-yt p-2 fs-5">
                             <div class="social-icon__wrapper">
                                 <i class="fab fa-youtube fa-fw"></i>
                             </div>
                         </a>
-                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-primary p-2 fs-5">
+                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-soc-tg p-2 fs-5 mx-1">
+                            <div class="social-icon__wrapper">
+                                <i class="fab fa-telegram fa-fw"></i>
+                            </div>
+                        </a>
+                        <a href="" class="social-icon text-decoration-none rounded-2 text-white bg-soc-vk p-2 fs-5">
                             <div class="social-icon__wrapper">
                                 <i class="fab fa-vk fa-fw"></i>
                             </div>

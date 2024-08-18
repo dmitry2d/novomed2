@@ -1,19 +1,27 @@
 
 
 // Кастомизированные глобальные переменные Botstrap
-@import "./global_variables";
+@import "global_variables";
 
 // Необходимые модули для кастомизации Bootstrap
 @import  "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
 
 // Кастомизированные переменные Botstrap
-@import "./_variables";
+@import "variables";
 
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
+
+// Дополнительные свойства responsive
+@import "responsives";
 
 
 // Основные модули Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 // Font Awesome
 $fa-font-path: "../webfonts";
@@ -21,8 +29,9 @@ $fa-font-path: "../webfonts";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
-// Google fonts
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Fonts
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('../fonts/Gilroy/stylesheet.css');
 
 // Стили модулей проекта
 @import "topline";

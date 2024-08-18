@@ -1,8 +1,5 @@
 .navbar {
     .nav-link {
-        // &:focus {
-        //     background-color: unset;
-        // }
         &.show, 
         &:focus, 
         &:hover {
@@ -13,4 +10,40 @@
     .dropdown-item {
         font-weight: 600;
     }
+    @include media-breakpoint-down(md) {
+        order: 3;
+        .nav-link {
+            padding: 1em;
+        }
+        .container-xl {
+            // flex-wrap: nowrap;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        .logo {
+            img {
+                max-width: 100px;
+            }
+        }
+    }
+}
+
+
+.navbar-collapse {
+
+    @include media-breakpoint-down(md) {
+        order: 3;
+    }
+
+}
+
+.mobile-socials {
+    border-radius: 0 0 30px 30px;
+}
+
+.nav-order,
+.nav-call {
+    display: inline-block;
+    width: 160px;
+    min-width: 160px;
 }

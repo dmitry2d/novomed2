@@ -1,8 +1,14 @@
 .top-line {
-    .top-line__links {
-        font-size: 1.2rem;
-        a {
-            text-decoration: none;
-        }
+    form input {
+        outline: none;
+        font-size: 14px;
+    }
+    @include media-breakpoint-down(md) {
+        // position: sticky;
+        // top: 0;
+        // z-index: 10000;
+    }
+    .hamburger {
+        cursor: pointer;
     }
 }
