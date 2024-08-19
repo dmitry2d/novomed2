@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-md-6 col-xl-5 text-white p-0 p-md-5 order-md-1 flex-grow-1">
                             <div class="d-flex flex-column h-100 p-5">
-                                <div class="fs-3 fs-md-2 fs-lg-1 pb-0 pb-md-4 pb-xl-5">
+                                <div class="fs-3 fs-md-2 fs-lg-1 pb-1 pb-md-4 pb-xl-5">
                                     Центр хирургической помощи
                                 </div>
                                 <div class="fs-4 flex-grow-1">
@@ -42,7 +42,7 @@
                         </div>
                         <div class="col-md-6 col-xl-5 text-white p-0 p-md-5 order-md-1 flex-grow-1">
                             <div class="d-flex flex-column h-100 p-5">
-                                <div class="fs-3 fs-md-2 fs-lg-1 pb-0 pb-md-4 pb-xl-5">
+                                <div class="fs-3 fs-md-2 fs-lg-1 pb-1 pb-md-4 pb-xl-5">
                                     Лечение зубов во сне и наяву
                                 </div>
                                 <div class="fs-4 flex-grow-1">
@@ -64,7 +64,7 @@
                         </div>
                         <div class="col-md-6 col-xl-5 text-white p-0 p-md-5 order-md-1 flex-grow-1">
                             <div class="d-flex flex-column h-100 p-5">
-                                <div class="fs-3 fs-md-2 fs-lg-1 pb-0 pb-md-4 pb-xl-5">
+                                <div class="fs-3 fs-md-2 fs-lg-1 pb-1 pb-md-4 pb-xl-5">
                                     Прослушка Ваших органов
                                 </div>
                                 <div class="fs-4 flex-grow-1">
