@@ -19,16 +19,20 @@
             include 'components/index-slider.php';
         ?>
 
-        <?php 
-            include 'components/index-actions.php';
-        ?>
-
         <?php
             include 'components/index-services.php';
         ?>
 
         <?php
-            include 'components/index-appointment.php';
+            include 'components/index-appoint.php';
+        ?>
+
+        <?php
+            include 'components/index-doctors.php';
+        ?>
+
+        <?php
+            include 'components/index-faq.php';
         ?>
 
 
@@ -37,7 +41,7 @@
 
 <?php
 
-    include 'components/contactform.php';
+    // include 'components/contactform.php';
 
     include 'components/footer.php';
 

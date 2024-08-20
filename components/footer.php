@@ -1,6 +1,6 @@
 
     <!-- Подвал -->
-    <section class="footer bg-primary text-white py-5">
+    <section class="footer bg-primary text-white py-5 mt-5">
         <div class="container-xl px-3">
             <div class="row">
                 

@@ -1,0 +1,43 @@
+
+
+.index-services {
+
+    form {
+        border-radius: 15px;
+    }
+    input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid $nm-smoke;
+        padding: 5px;
+        &::placeholder {
+            color: $primary;
+            opacity: 0.75;
+        }
+    }
+    button {
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+    .service-item {
+        padding: 15px 20px;
+        color: $primary;
+        border: 1px solid $primary;
+        border-radius: 15px;
+        background: white;
+        a {
+            font-weight: 600;
+            text-decoration: none;
+        }
+        &.all {
+            a {
+                color: white;
+            }
+            background: $primary;
+        }
+        @include media-breakpoint-down(md) {
+            text-align: center;    
+        }
+    }
+}

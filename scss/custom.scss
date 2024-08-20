@@ -34,6 +34,7 @@ $fa-font-path: "../webfonts";
 @import url('../fonts/Gilroy/stylesheet.css');
 
 // Стили модулей проекта
+@import "common";
 @import "topline";
 @import "navbar";
 @import "contact-form";
@@ -41,5 +42,9 @@ $fa-font-path: "../webfonts";
 @import "about";
 @import "index-slider";
 @import "index-actions";
+@import "index-services";
+@import "index-appoint";
+@import "index-faq";
+@import "index-doctors";
 
 

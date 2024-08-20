@@ -1,0 +1,31 @@
+.index-appoint {
+    * {
+        position: relative;
+    }
+    .wrapper {
+        position: relative;
+        background: linear-gradient(135deg, #004192, $nm-darkblue);
+        &:before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url('../img/appoint_screen_bg.svg') no-repeat right -30px center;
+            @include media-breakpoint-down(md) {
+                background-position: center 10%;
+            }
+        }
+        border-radius: 25px;
+    }
+    .but {
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .screenshot {
+        @include media-breakpoint-down(md) {
+            // width: 100%;
+            max-width: 60vw;
+        }
+    }
+
+}

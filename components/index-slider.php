@@ -1,7 +1,4 @@
 
-
-
-
 <!-- Слайдер -->
 <div class="container">
     <div class="index-slider bg-primary my-4">
@@ -94,5 +91,3 @@
 </div>
 
 <!-- Слайдер -->
-
-<br><br><br><br><br><br>
