@@ -29,21 +29,21 @@
                             </div>
                         </div>
                         <div class="col-6 col-lg-3 text-center">
-                            <img src="./assets/img/reachness/reachness_icn1.svg" alt="">
+                            <img src="./assets/img/reachness/reachness_icn2.svg" alt="">
                             <div class="text-white mt-4">
-                                Возможно перемещение по клинике на лифте
+                                Доступность клиники для инвалидов-колясочников
                             </div>
                         </div>
                         <div class="col-6 col-lg-3 text-center">
-                            <img src="./assets/img/reachness/reachness_icn1.svg" alt="">
+                            <img src="./assets/img/reachness/reachness_icn3.svg" alt="">
                             <div class="text-white mt-4">
-                                Возможно перемещение по клинике на лифте
+                                Доступность клиники для детских колясок
                             </div>
                         </div>
                         <div class="col-6 col-lg-3 text-center">
-                            <img src="./assets/img/reachness/reachness_icn1.svg" alt="">
+                            <img src="./assets/img/reachness/reachness_icn4.svg" alt="">
                             <div class="text-white mt-4">
-                                Возможно перемещение по клинике на лифте
+                                Наличие парковки
                             </div>
                         </div>
 

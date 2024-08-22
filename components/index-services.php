@@ -3,7 +3,7 @@
 
 <div class="index-services my-5">
     
-    <div class="title fs-3 fw-bold text-primary text-center my-3">Услуги и цены</div>
+    <div class="title fs-2 fs-lg-1 fw-bold text-primary text-center my-3">Услуги и цены</div>
     
     <!-- Поиск услуг -->
     <div class="container">

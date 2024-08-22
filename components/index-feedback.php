@@ -3,9 +3,9 @@
 
     <div class="container">
         <div class="d-flex flex-column">
-            <div class="d-block d-md-none fs-4 fw-bold text-nm-gray text-center">О нас говорят отзывы</div>
+            <div class="d-block d-md-none fs-2 fw-bold text-nm-gray text-center">О нас говорят отзывы</div>
             <div class="d-md-flex order-2 order-md-1">
-                <div class="d-none d-md-block flex-grow-1 fs-2 fw-bold text-nm-gray">О нас говорят отзывы</div>
+                <div class="d-none d-md-block flex-grow-1 fs-2 fs-lg-1 fw-bold text-nm-gray">О нас говорят отзывы</div>
                 <a href="" class="d-flex text-decoration-none border border-primary rounded-4 px-4 py-2 align-items-center">    
                     <div class="pe-5 text-primary fw-bold my-1 flex-grow-1">
                         Читать все

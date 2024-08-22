@@ -1,7 +1,7 @@
 <div class="index-centers my-5">
 
     <div class="container">
-        <div class="fs-2 fw-bold text-nm-gray my-4">
+        <div class="fs-2 fs-lg-1 fw-bold text-nm-gray my-4 text-center text-lg-left">
             Наши центры
         </div>
 
