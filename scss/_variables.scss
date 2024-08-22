@@ -4,6 +4,7 @@ $nm-smoke: #cccccc;
 $nm-gray: #515355;
 $nm-medblue: #355ECD;
 $nm-darkblue: #1F1D7E;
+$nm-orange: #ffa200;
 
 
 $soc-tg: #2aabee;
@@ -11,8 +12,10 @@ $soc-vk: #45668e;
 
 $body-bg: $nm-dust;
 $custom-colors: (
+  "nm-orange": $nm-orange,
   "nm-gray": $nm-gray,
   "nm-dust": $nm-dust,
+  "nm-smoke": $nm-smoke,
   "nm-medblue": $nm-medblue,
   "gray-medium": $gray-500,
   "soc-vk": $soc-vk,

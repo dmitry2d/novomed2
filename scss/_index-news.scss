@@ -1,0 +1,94 @@
+.index-news {
+    .index-news-cards {
+        .index-news-card {
+
+            color: $primary;
+            text-decoration: none;
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 15px;
+            
+            transition: box-shadow 0.3s;
+            &:hover {
+                box-shadow: 0 20px 30px #00005012;
+            }
+
+            .photo {
+                height: 200px;
+                width: 100%;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                    object-fit: cover;
+                }
+                .photo-tag {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    padding: 10px 15px;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    border-radius: 10px;
+                    background: white;
+                    z-index: 100;
+                    color: $primary;
+                    max-width: calc(100% - 20px);
+                }
+            }
+            .bottom {
+                display: flex;
+                flex-grow: 1;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .tag {
+                font-weight: 500;
+                color: $primary;
+                font-size: 11px;
+                padding: 3px 10px 2px;
+                border-radius: 20px;
+                border: 1px solid $primary;
+                width: fit-content;
+                margin: 10px 0 5px;
+            }
+            .title {
+                font-size: 13px;
+                color: $primary;
+                font-weight: 700;
+                margin: 5px 0;
+            }
+            .description {
+                font-size: 11px;
+                color: $nm-gray;
+                line-height: 1.3;
+                margin: 10px 0;
+            }
+            .link {
+                font-size: 13px;
+                flex-grow: 1;
+                display: flex;
+                align-items: flex-end;
+            }
+
+
+        }
+        @include media-breakpoint-down(lg) {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            > * {
+                width: unset;
+            }
+            .index-news-card {
+                width: 250px;
+            }
+
+        }
+    }
+}

@@ -2,4 +2,23 @@
     .wrapper {
         border-radius: 25px;
     }
+    .accordion-item {
+        button {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    @include media-breakpoint-down(lg) {
+        .accordion-item {
+            button {
+                outline: none;
+                box-shadow: none;
+                padding-left: 0;
+                padding-right: 0;
+                &::after {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
 }

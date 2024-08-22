@@ -32,9 +32,36 @@
         ?>
 
         <?php
-            include 'components/index-faq.php';
+            include 'components/index-news.php';
         ?>
 
+        <?php
+            include 'components/index-about.php';
+        ?>
+
+        <?php
+            include 'components/index-feedback.php';
+        ?>
+
+        <?php
+            include 'components/index-ratings.php';
+        ?>
+
+        <?php
+            include 'components/index-appoint.php';
+        ?>
+
+        <?php
+            include 'components/index-faq.php';
+        ?>
+        
+        <?php
+            include 'components/index-reachness.php';
+        ?>
+
+        <?php
+            include 'components/index-centers.php';
+        ?>
 
     </section>
     <!-- /Контент -->

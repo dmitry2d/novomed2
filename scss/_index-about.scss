@@ -1,0 +1,38 @@
+.index-about {
+    * {
+        position: relative;
+    }
+    .wrapper {
+        position: relative;
+        background: linear-gradient(135deg, #004192, $nm-darkblue);
+        &:before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url('../img/building01.png') no-repeat right bottom;
+            background-size: 40%;
+            @include media-breakpoint-down(md) {
+                background: none;
+            }
+        }
+        border-radius: 25px;
+    }
+    .logo {
+        img {
+            height: 2.8em;
+        }
+    }
+    .description {
+        line-height: 1.1;
+        width: 60%;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+    }
+    .details {
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+       
+    }
+}

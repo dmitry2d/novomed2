@@ -2,11 +2,18 @@
     .index-doctor-cards {
         .index-doctor-card {
 
+            display: block;
             color: $primary;
             text-decoration: none;
             background: white;
             padding: 0;
             border-radius: 15px;
+            
+            cursor: pointer;
+            transition: box-shadow 0.3s;
+            &:hover {
+                box-shadow: 0 20px 30px #00005012;
+            }
             
             .photo {
                 height: 260px;

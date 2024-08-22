@@ -1,6 +1,6 @@
 <div class="index-faq my-5">
-    <div class="container">
-        <div class="wrapper px-5 py-4 bg-white">
+    <div class="container py-2">
+        <div class="wrapper px-4 px-lg-5 py-4 bg-white">
             <div class="row">
 
                 <div class="col-lg-4 fs-3 text-primary fw-bold pe-5 pt-2">

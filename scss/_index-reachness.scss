@@ -1,0 +1,20 @@
+.index-reachness {
+    .wrapper {
+        position: relative;
+        background: linear-gradient(135deg, #004192, $nm-darkblue);
+        border-radius: 25px;
+
+        .logo {
+            aspect-ratio: 4 / 1;
+            position: relative;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}

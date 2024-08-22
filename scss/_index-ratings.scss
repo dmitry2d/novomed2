@@ -1,0 +1,75 @@
+.index-ratings {
+    .index-ratings-item {
+
+        
+        .wrapper {
+            height: 100%;
+            position: relative;
+            background: white;
+            padding: 42px 30px 35px;
+            border-radius: 15px;
+            transition: box-shadow 0.3s;
+            &:hover {
+                box-shadow: 0 20px 30px #00005012;
+            }
+        }
+
+        .counts {
+            display: flex;
+            align-items: center;
+        }
+        .data {
+            flex-grow: 1;
+        }
+        .count {
+            font-size: 48px;
+            font-weight: 400;
+            color: $primary;
+            padding-right: 10px;
+        }
+        .stars {
+            margin: 5px;
+        }
+        .users {
+            color: $nm-gray;
+            margin-left: 3px;
+        }
+        .read {
+
+        }
+        .logo {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            width: 70%;
+            overflow: hidden;
+            text-align: right;
+            img {
+                height: 30px;
+                filter: grayscale(1);
+            }
+            opacity: 0.175;
+        }
+    }
+
+    .index-ratings-item-link {
+        .wrapper {
+            background: linear-gradient(135deg, #004192, $nm-darkblue);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            * {
+                color: white;
+            }
+            a {
+                font-size: 24px;
+                text-decoration: none;
+                padding-right: 10px;
+                display: block;
+                line-height: 1.1;
+            }
+        }
+    }
+
+}

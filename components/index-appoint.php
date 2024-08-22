@@ -1,6 +1,6 @@
 
 <!-- Запись на прием -->
-<div class="index-appoint">
+<div class="index-appoint my-5">
 
     <div class="container">
 
