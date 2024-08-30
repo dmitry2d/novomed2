@@ -22,7 +22,8 @@
                         <div class="index-feedback-card">
                             <div class="top">
                                 <div class="ava">
-                                    <img src="./assets/img/photo_doctor.png" alt="">
+                                    X
+                                    <!-- <img src="./assets/img/photo_doctor.png" alt=""> -->
                                 </div>
                                 <div class="d-flex">
                                     <i class="fa fa-star text-nm-orange" aria-hidden="true"></i>
