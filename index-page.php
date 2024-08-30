@@ -16,7 +16,7 @@
     <section class="content">
 
         <?php 
-            include 'components/index-slider.php';
+            include 'components/index-slider_notext.php';
         ?>
 
         <?php
